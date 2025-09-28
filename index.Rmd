@@ -1,0 +1,236 @@
+---
+title: "" # Deixamos o título vazio para personalizar o primeiro slide
+subtitle: ""
+institute: ""
+date: ""
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["fc", custom.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+<div style="display: flex; align-items: flex-start; justify-content: space-between; height: 70vh; padding: 0 50px; margin-top: 150px;">
+  <div style="flex: 1; text-align: center;">
+    <h1 style="margin: 0; font-size: 2.5em; color: #ff4500;">Apresentação WorkShop</h1>
+    <p style="margin: 5px 0; font-size: 1.5em; color: black;">Fatec Araras</p>
+    <p style="margin: 5px 0; font-size: 1.2em; color: black;">2025-10-04</p> <!-- Pode substituir por  `r Sys.Date()` para a data automática no Rmarkdown -->
+    <p style="margin: 15px 0; font-size: 1.5em; color: black;">Disciplina: Gestão ágil de projetos de software</p>
+  </div>
+  <div style="flex: 1; text-align: right;  margin-top: 40px;">
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+
+
+---
+<!--------Slide--0-2-------------------->
+<!---------Integrantes--------------------->
+
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width----> <!--Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+# Integrantes
+
+
+<a href="https://linktr.ee/lucas.007" style="text-decoration: underline;">Lucas Eduardo</a>
+<br>
+
+<a href="https://github.com/TiagoBertoline" style="text-decoration: underline;">Tiago Bertoline</a>
+<br>
+
+<a href="https://github.com/RafaelRRita" style="text-decoration: underline;">Rafael Renato</a>
+<br>
+
+<br>
+
+---
+<!--------Slide--03--------------------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+# Introdução
+
+- Livro escrito por **Jeff Sutherland**, cocriador do Scrum.  
+- Mostra como aplicar o **Scrum** para melhorar produtividade em projetos.  
+- Não é só para software, mas para **diversas áreas**: educação, saúde, governo, empresas. 
+
+
+---
+<!--------Slide--0-4-------------------->
+<!---------introdução-e-objetivo------------------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+# Ideia Central
+
+- Fazer o **dobro do trabalho na metade do tempo**.  
+- Entregar **mais valor** com menos desperdício.  
+- Trabalhar em **ciclos curtos**, inspecionar e adaptar.  
+- Criar **equipes auto-organizadas** com foco em resultados.  
+
+---
+<!--------Slide--05--------------------->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+# Principais Pontos do Livro
+
+1. **Ciclos curtos (Sprints)** – entregas rápidas e incrementais.  
+2. **Transparência** – todos sabem o que está sendo feito.  
+3. **Priorização de valor** – foco no que traz mais impacto.  
+4. **Autonomia da equipe** – times auto-organizados.  
+5. **Inspeção e adaptação** – melhoria contínua a cada Sprint.
+
+
+---
+<!--------Slide--06--------------------->
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+# Estrutura do Scrum
+
+- **Papéis**: Product Owner, Scrum Master, Time de Desenvolvimento.  
+- **Artefatos**: Product Backlog, Sprint Backlog, Incremento.  
+- **Eventos**: Planejamento, Daily Scrum, Review, Retrospective.
+
+
+---
+<!--------Slide--0-7-------------------->
+
+
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+
+# Mensagem Final
+
+- Scrum é mais que um método: é uma **mudança cultural**.  
+- Baseado em:  
+  - **Foco no valor**  
+  - **Colaboração**  
+  - **Melhoria contínua**  
+- Ajuda a transformar equipes comuns em **times de alta performance**.  
+
+---
+<!--------Slide-08-------->
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+#  Links úteis
+
+- [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html)  
+- [Scrum Guide](https://scrumguides.org)  
+- [Jeff Sutherland – Site oficial](https://jeffsutherland.com) 
+
+
+---
+<!--------Slide09------>
+<!----Tecnologias da Apn-------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+<h2  style="color: black;"> Tecnologias utilizadas para esta apresentação: </h2>
+
+<p align="center">
+    <img src="img/xa.png" alt="Image" width="645" height="450" />
+</p>
+---
+<!--------Slide--10--------------------->
+<!---------Perguntas--------------------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+<div style="margin-left: 200px;">
+<h1 style=" margin-left: 100px; margin-top: 100px;">Fim !<p style="  margin-top: 100px;"> <h1>Muito Obrigado !!!</h1></p</h1>
+</div>
+---
+<!--------Slide--11--------------------->
+<!---------Perguntas--------------------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+<h1 style=" margin-left: 250px; margin-top: 250px;"> Perguntas 🤔  ???</h1> 
