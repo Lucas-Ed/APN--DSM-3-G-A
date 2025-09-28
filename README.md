@@ -22,6 +22,11 @@ O objetivo da apresentação é destacar os principais pontos do livro, exploran
 - [Tiago Bertoline](https://github.com/TiagoBertoline)  
 - [Rafael Renato](https://github.com/RafaelRRita)  
 
+
+## 📲 Deploy
+
+Acesse [aqui.](https://lucas-ed.github.io/APN--DSM-3-G-A/#1) a apresentação online.
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas

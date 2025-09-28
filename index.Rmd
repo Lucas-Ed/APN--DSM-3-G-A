@@ -13,6 +13,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+
 ---
 <div style="display: flex; align-items: flex-start; justify-content: space-between; height: 70vh; padding: 0 50px; margin-top: 150px;">
   <div style="flex: 1; text-align: center;">
@@ -57,8 +58,24 @@ output:
 <br>
 
 ---
-<!--------Slide--03--------------------->
+<!--------Slide--04--------------------->
 <!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+<!-- imagem-->
+<p align="center">
+    <img src="./img/livro.jpg" alt="Livro" style="width: 50%; height: auto;">
+</p>
+---
+<!--------Slide--04--------------------->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
      <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
@@ -74,6 +91,8 @@ output:
 - Livro escrito por **Jeff Sutherland**, cocriador do Scrum.  
 - Mostra como aplicar o **Scrum** para melhorar produtividade em projetos.  
 - Não é só para software, mas para **diversas áreas**: educação, saúde, governo, empresas. 
+
+
 
 
 ---
@@ -181,6 +200,7 @@ output:
 - [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html)  
 - [Scrum Guide](https://scrumguides.org)  
 - [Jeff Sutherland – Site oficial](https://jeffsutherland.com) 
+- [Respositório desta Apresentação](https://github.com/Lucas-Ed/APN--DSM-3-G-A)
 
 
 ---

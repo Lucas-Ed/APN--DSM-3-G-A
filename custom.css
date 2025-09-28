@@ -1,54 +1,69 @@
-/*.remark-slide-content{background-color: #13131F;}*/
-/* Cor de fundo branco para todos os slides */
+/* ================================
+   Estilos customizados da apresentação
+   ================================ */
+
+/* Texto e fundo padrão para todos os slides */
 .remark-slide-content {
-  background-color: #13131F;
-  color: #000000; /* Texto preto para contraste */
+  background-color: #13131F; /* fundo escuro */
+  color: #FFFFFF;           /* texto branco */
+  font-family: Andale Mono, monospace;
 }
 
-/* Cor de fundo branco para o primeiro slide */
+/* Primeiro slide com fundo branco */
 .remark-slide:nth-of-type(1) .remark-slide-content {
-  background-color:#FFFFFF;
-  color: #FFFFFF; /* Texto branco para contraste */
+  background-color: #FFFFFF; /* fundo branco */
+  color: #000000;           /* texto preto */
 }
 
-
+/* Links */
 a {
   font-weight: bold;
   color: #FF4500;
   font-family: Andale Mono, monospace;
-  font-size:20px;
+  font-size: 20px;
   font-style: normal;
-  text-decoration:none;
-};
-p {
+  text-decoration: none;
+}
+
+/* Parágrafos e listas */
+p, li {
   font-weight: bold;
-  color: black;
+  color: inherit; /* herda da configuração do slide */
   font-family: Andale Mono, monospace;
-  font-size:20px;
+  font-size: 20px;
   font-style: normal;
-  text-decoration:none;
-}
-h1 {font-weight: bold;  font-family: Andale Mono, monospace;}
-h2 {color: black ;font-weight: bold;  font-family: Andale Mono, monospace;}
-
-.container {
-
 }
 
-
-.slide_05{
-  
+/* Títulos */
+h1 {
+  font-weight: bold;
+  font-family: Andale Mono, monospace;
 }
 
-.slide_06{
+h2 {
+  color: inherit; /* respeita cor do slide */
+  font-weight: bold;
+  font-family: Andale Mono, monospace;
+}
+
+/* Containers customizados */
+.container {}
+
+/* Ajustes específicos para slides */
+.slide_05 {}
+
+.slide_06 {
   margin-top: 60px;
 }
-/* custom.css */
+
+/* Responsividade */
 @media (max-width: 1029px) {
-  .slide_05{
-  margin-top: 40px;
+  .slide_05 {
+    margin-top: 40px;
+  }
 }
-}
+
+
 
 /*
 3- style="  display: flex; margin-top: 160px; justify-content: center; align-items: center; height: 30vh;"
