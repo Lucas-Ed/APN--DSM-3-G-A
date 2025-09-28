@@ -25,7 +25,7 @@ O objetivo da apresentação é destacar os principais pontos do livro, exploran
 
 ## 📲 Deploy
 
-Acesse [aqui.](https://lucas-ed.github.io/APN--DSM-3-G-A/#1) a apresentação online.
+Acesse [aqui,](https://lucas-ed.github.io/APN--DSM-3-G-A/#1) a apresentação online.
 
 ---
 

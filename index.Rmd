@@ -58,7 +58,7 @@ output:
 <br>
 
 ---
-<!--------Slide--04--------------------->
+<!--------Slide--03--------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
@@ -70,12 +70,28 @@ output:
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-<!-- imagem-->
-<p align="center">
-    <img src="./img/livro.jpg" alt="Livro" style="width: 50%; height: auto;">
-</p>
+<div style="display: flex; align-items: center; margin-top: 100px;">
+
+<!-- Imagem à esquerda -->
+<div style="flex: 1; padding-right: 20px;">
+  <img src="./img/livro.jpg" alt="Capa do Livro Scrum" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
+</div>
+
+<!-- Texto à direita -->
+<div style="flex: 2;">
+  <h1>Sobre o autor</h1>
+  <ul>
+    <li><strong>Jeff Sutherland</strong>: co-criador do Scrum</li>
+    <li>Experiência como piloto de combate e desenvolvedor</li>
+    <li>Aplicou Scrum em empresas, escolas e até ONGs</li>
+    <li>Criou o método como resposta à ineficiência no desenvolvimento tradicional</li>
+  </ul>
+</div>
+
+</div>
 ---
 <!--------Slide--04--------------------->
+<!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
      <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
@@ -93,11 +109,15 @@ output:
 - Não é só para software, mas para **diversas áreas**: educação, saúde, governo, empresas. 
 
 
+# O que é Scrum?
 
+- Método ágil de gerenciamento de projetos
+- Baseado em ciclos iterativos e incrementais
+- Foco na entrega rápida de valor
+- Transparência, inspeção e adaptação
 
 ---
 <!--------Slide--0-4-------------------->
-<!---------introdução-e-objetivo------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
@@ -114,21 +134,9 @@ output:
 - Fazer o **dobro do trabalho na metade do tempo**.  
 - Entregar **mais valor** com menos desperdício.  
 - Trabalhar em **ciclos curtos**, inspecionar e adaptar.  
-- Criar **equipes auto-organizadas** com foco em resultados.  
+- Criar **equipes auto-organizadas** com foco em resultados. 
 
----
-<!--------Slide--05--------------------->
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
-  </div>
-  <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
-  </div>
-</div>
-<!---fim-Logos-topo-da-pagina---->
-
-# Principais Pontos do Livro
+# Principais Pontos metódicos do Livro
 
 1. **Ciclos curtos (Sprints)** – entregas rápidas e incrementais.  
 2. **Transparência** – todos sabem o que está sendo feito.  
@@ -136,10 +144,9 @@ output:
 4. **Autonomia da equipe** – times auto-organizados.  
 5. **Inspeção e adaptação** – melhoria contínua a cada Sprint.
 
-
 ---
-<!--------Slide--06--------------------->
-
+<!--------Slide--05--------------------->
+<!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
      <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
@@ -150,17 +157,97 @@ output:
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-# Estrutura do Scrum
+# Por que o Scrum funciona?
 
-- **Papéis**: Product Owner, Scrum Master, Time de Desenvolvimento.  
-- **Artefatos**: Product Backlog, Sprint Backlog, Incremento.  
-- **Eventos**: Planejamento, Daily Scrum, Review, Retrospective.
+- Reduz o desperdício
+- Aumenta a transparência
+- Equipes mais autônomas e motivadas
+- Entregas constantes e feedback rápido
 
+# Exemplos reais do livro
+
+- **FBI**: Projeto Sentinel fracassou com abordagem tradicional (Waterfall). Ao adotar Scrum, entregaram em meses o que não haviam conseguido em anos.
+
+- **Escola primária na Holanda**: Alunos organizaram suas tarefas escolares usando Scrum. Resultado: maior autonomia, organização e aprendizado.
 
 ---
-<!--------Slide--0-7-------------------->
+<!--------Slide--06--------------------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
 
 
+<div style="margin: 0 auto; max-width: 700px; margin-top: 80px;">
+  <ul>
+    <li><strong>Startups</strong>: Empresas como Spotify e Google usam Scrum para manter inovação constante e ciclos de feedback rápidos.</li>
+    <br>
+    <li><strong>Hospital na Índia</strong>: Utilizou Scrum para melhorar processos hospitalares e salvar vidas com maior eficiência.</li>
+    <br>
+    <li><strong>Exército americano</strong>: Scrum aplicado em logística e planejamento de operações complexas.</li>
+  </ul>
+  <br>
+  <br>
+  <p><strong>Lição:</strong> Não importa o setor — onde há complexidade e necessidade de adaptação rápida, Scrum pode acelerar resultados e melhorar entregas.</p>
+</div>
+
+---
+<!--------Slide--07--------------------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+# Ciclo PDCA
+
+<div style="margin: 0 auto; max-width: 750px; text-align: left; margin-top: 100px;">
+
+- 🧠 **Plan**: Identifique e planeje soluções
+- 🚀 **Do**: Coloque o plano em prática
+- 🔍 **Check**: Avalie o que funcionou (ou não)
+- 🔁 **Act**: Ajuste e melhore continuamente
+
+<br>
+💡 **Jeff Sutherland**, no livro *"Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo"*, destaca o PDCA como base para o processo iterativo e incremental do Scrum.
+
+---
+<!--------Slide--08--------------------->
+<!---início-Logos-topo-da-pagina---->
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+  </div>
+  <div><!--largura-width--> <!-----Altura-height--->
+    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+  </div>
+</div>
+<!---fim-Logos-topo-da-pagina---->
+
+# Aplicando Scrum no Projeto Integrador
+
+<div style="margin: 0 auto; max-width: 750px; text-align: left; margin-top: 100px;">
+- Projeto: Sistema Web
+- Scrum pode ser usado para **organizar e acelerar o desenvolvimento**
+- Utilizar **Product Backlog** para listar funcionalidades como:
+  - Cadastro
+  - Cálculos
+  - Entre outras funcionalidades
+- Dividir o projeto em **sprints semanais ou quinzenais**
+
+---
+<!--------Slide--10-------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
@@ -183,8 +270,8 @@ output:
 - Ajuda a transformar equipes comuns em **times de alta performance**.  
 
 ---
-<!--------Slide-08-------->
-
+<!--------Slide--12--------------------->
+<!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
      <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
@@ -204,7 +291,7 @@ output:
 
 
 ---
-<!--------Slide09------>
+<!--------Slide13------>
 <!----Tecnologias da Apn-------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -223,7 +310,7 @@ output:
     <img src="img/xa.png" alt="Image" width="645" height="450" />
 </p>
 ---
-<!--------Slide--10--------------------->
+<!--------Slide--14--------------------->
 <!---------Perguntas--------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -240,7 +327,7 @@ output:
 <h1 style=" margin-left: 100px; margin-top: 100px;">Fim !<p style="  margin-top: 100px;"> <h1>Muito Obrigado !!!</h1></p</h1>
 </div>
 ---
-<!--------Slide--11--------------------->
+<!--------Slide--15--------------------->
 <!---------Perguntas--------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
