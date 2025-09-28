@@ -74,7 +74,7 @@ output:
 
 <!-- Imagem à esquerda -->
 <div style="flex: 1; padding-right: 20px;">
-  <img src="./img/livro.jpg" alt="Capa do Livro Scrum" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
+  <img src="./img/livro.JPG" alt="Capa do Livro Scrum" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </div>
 
 <!-- Texto à direita -->
