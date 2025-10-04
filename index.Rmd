@@ -23,7 +23,7 @@ output:
     <p style="margin: 15px 0; font-size: 1.5em; color:#2CF228;">Disciplina: Gestão ágil de projetos de software</p>
   </div>
   <div style="flex: 1; text-align: right;  margin-top: 40px;">
-    <img src="./img/Logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/Logo-Slide_light.PNG" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 
@@ -38,7 +38,7 @@ output:
      <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width----> <!--Altura-height--->
-    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.PNG" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
