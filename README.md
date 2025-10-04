@@ -59,7 +59,7 @@ Acesse [aqui,](https://lucas-ed.github.io/APN--DSM-3-G-A/#1) a apresentação on
    ```R
    install.packages("xaringan")
    ```
-4. Execute o arquivo `apresentacao.Rmd` para gerar os slides.
+4. Execute o arquivo `index.Rmd` para gerar os slides.
 
 ---
 

@@ -17,13 +17,13 @@ output:
 ---
 <div style="display: flex; align-items: flex-start; justify-content: space-between; height: 70vh; padding: 0 50px; margin-top: 150px;">
   <div style="flex: 1; text-align: center;">
-    <h1 style="margin: 0; font-size: 2.5em; color: #ff4500;">Apresentação WorkShop</h1>
-    <p style="margin: 5px 0; font-size: 1.5em; color: black;">Fatec Araras</p>
-    <p style="margin: 5px 0; font-size: 1.2em; color: black;">2025-10-04</p> <!-- Pode substituir por  `r Sys.Date()` para a data automática no Rmarkdown -->
-    <p style="margin: 15px 0; font-size: 1.5em; color: black;">Disciplina: Gestão ágil de projetos de software</p>
+    <h1 style="margin: 0; font-size: 2.5em; color: #2CF228;">Apresentação WorkShop</h1>
+    <p style="margin: 5px 0; font-size: 1.5em; color: white;">Fatec Araras</p>
+    <p style="margin: 5px 0; font-size: 1.2em; color: white;">2025-10-04</p> <!-- Pode substituir por  `r Sys.Date()` para a data automática no Rmarkdown -->
+    <p style="margin: 15px 0; font-size: 1.5em; color:#2CF228;">Disciplina: Gestão ágil de projetos de software</p>
   </div>
   <div style="flex: 1; text-align: right;  margin-top: 40px;">
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/Logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 
@@ -35,15 +35,15 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width----> <!--Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-# Integrantes
+<h1 style="margin: 0; font-size: 2.5em; color: #2CF228;">Integrantes</h1>
 
 
 <a href="https://linktr.ee/lucas.007" style="text-decoration: underline;">Lucas Eduardo</a>
@@ -62,10 +62,10 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
@@ -79,8 +79,8 @@ output:
 
 <!-- Texto à direita -->
 <div style="flex: 2;">
-  <h1>Sobre o autor</h1>
-  <ul>
+  <h1 style="color: #2CF228;">Sobre o autor</h1>
+  <ul style="color: white;">
     <li><strong>Jeff Sutherland</strong>: co-criador do Scrum</li>
     <li>Experiência como piloto de combate e desenvolvedor</li>
     <li>Aplicou Scrum em empresas, escolas e até ONGs</li>
@@ -94,98 +94,108 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-# Introdução
+  <h1 style="color: #2CF228;">Introdução</h1>
 
-- Livro escrito por **Jeff Sutherland**, cocriador do Scrum.  
-- Mostra como aplicar o **Scrum** para melhorar produtividade em projetos.  
-- Não é só para software, mas para **diversas áreas**: educação, saúde, governo, empresas. 
+  <ul style="color: white;">
+    <li> Livro escrito por Jeff Sutherland, cocriador do Scrum.</li>
+    <li>Mostra como aplicar o Scrum para melhorar produtividade em projetos.</li>
+    <li>Não é só para software, mas para diversas áreas: educação, saúde, governo, empresas.</li>
+  </ul>
 
+  <h1 style="color: #2CF228;">O que é Scrum?</h1>
 
-# O que é Scrum?
-
-- Método ágil de gerenciamento de projetos
-- Baseado em ciclos iterativos e incrementais
-- Foco na entrega rápida de valor
-- Transparência, inspeção e adaptação
+  <ul style="color: white;">
+    <li>Método ágil de gerenciamento de projetos</li>
+    <li>Baseado em ciclos iterativos e incrementais</li>
+    <li>Foco na entrega rápida de valor</li>
+    <li>Transparência, inspeção e adaptação</li>
+  </ul>
 
 ---
 <!--------Slide--0-4-------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-# Ideia Central
+  <h1 style="color: #2CF228;">Ideia Central</h1>
 
-- Fazer o **dobro do trabalho na metade do tempo**.  
-- Entregar **mais valor** com menos desperdício.  
-- Trabalhar em **ciclos curtos**, inspecionar e adaptar.  
-- Criar **equipes auto-organizadas** com foco em resultados. 
+  <ul style="color: white;">
+    <li>Fazer o dobro do trabalho na metade do tempo.</li>
+    <li>Entregar mais valor com menos desperdício.</li>
+    <li>Trabalhar em  curtos, inspecionar e adaptar.</li>
+    <li>Criar equipes auto-organizadas com foco em resultados.</li>
+  </ul>
 
-# Principais Pontos metódicos do Livro
+  <h1 style="color: #2CF228;">Principais Pontos metódicos do Livro</h1> 
 
-1. **Ciclos curtos (Sprints)** – entregas rápidas e incrementais.  
-2. **Transparência** – todos sabem o que está sendo feito.  
-3. **Priorização de valor** – foco no que traz mais impacto.  
-4. **Autonomia da equipe** – times auto-organizados.  
-5. **Inspeção e adaptação** – melhoria contínua a cada Sprint.
-
+  <ul style="color: white;">
+    <li> Ciclos curtos (Sprints) – entregas rápidas e incrementais.</li>
+    <li> Transparência – todos sabem o que está sendo feito.</li>
+    <li> Priorização de valor – foco no que traz mais impacto.</li>
+    <li> Autonomia da equipe – times auto-organizados. </li>
+    <li> Inspeção e adaptação – melhoria contínua a cada Sprint.</li>
+  </ul>
+  
 ---
 <!--------Slide--05--------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-# Por que o Scrum funciona?
+  <h1 style="color: #2CF228;">Por que o Scrum funciona?</h1> 
+  <ul style="color: white;">
+    <li>Reduz o desperdício</li>
+    <li> Aumenta a transparência</li>
+    <li>Equipes mais autônomas e motivadas</li>
+    <li>Entregas constantes e feedback rápido</li>
+  </ul>
 
-- Reduz o desperdício
-- Aumenta a transparência
-- Equipes mais autônomas e motivadas
-- Entregas constantes e feedback rápido
+  <h1 style="color: #2CF228;">Exemplos reais do livro</h1>  
 
-# Exemplos reais do livro
+  <ul style="color: white;">
+    <li>: Projeto Sentinel fracassou com abordagem tradicional (Waterfall). Ao adotar Scrum, entregaram em meses o que não haviam conseguido em anos.</li>
+    <li>Escola primária na Holanda: Alunos organizaram suas tarefas escolares usando Scrum. Resultado: maior autonomia, organização e aprendizado.</li>
+  </ul>
 
-- **FBI**: Projeto Sentinel fracassou com abordagem tradicional (Waterfall). Ao adotar Scrum, entregaram em meses o que não haviam conseguido em anos.
-
-- **Escola primária na Holanda**: Alunos organizaram suas tarefas escolares usando Scrum. Resultado: maior autonomia, organização e aprendizado.
 
 ---
 <!--------Slide--06--------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
 
 <div style="margin: 0 auto; max-width: 700px; margin-top: 80px;">
-  <ul>
+  <ul  style="color: white;">
     <li><strong>Startups</strong>: Empresas como Spotify e Google usam Scrum para manter inovação constante e ciclos de feedback rápidos.</li>
     <br>
     <li><strong>Hospital na Índia</strong>: Utilizou Scrum para melhorar processos hospitalares e salvar vidas com maior eficiência.</li>
@@ -194,7 +204,7 @@ output:
   </ul>
   <br>
   <br>
-  <p><strong>Lição:</strong> Não importa o setor — onde há complexidade e necessidade de adaptação rápida, Scrum pode acelerar resultados e melhorar entregas.</p>
+  <p style="color: white;"><strong>Lição:</strong> Não importa o setor — onde há complexidade e necessidade de adaptação rápida, Scrum pode acelerar resultados e melhorar entregas.</p>
 </div>
 
 ---
@@ -202,65 +212,74 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-# Ciclo PDCA
+  <h1 style="color: #2CF228;">Ciclo PDCA</h1> 
 
 <div style="margin: 0 auto; max-width: 750px; text-align: left; margin-top: 100px;">
 
-- 🧠 **Plan**: Identifique e planeje soluções
-- 🚀 **Do**: Coloque o plano em prática
-- 🔍 **Check**: Avalie o que funcionou (ou não)
-- 🔁 **Act**: Ajuste e melhore continuamente
+  <ul style="color: white;">
+    <li>🧠 Plan: Identifique e planeje soluções</li>
+    <li>🚀 Do: Coloque o plano em prática</li>
+    <li>🔍 Check: Avalie o que funcionou (ou não)r</li>
+    <li>🔁 Act: Ajuste e melhore continuamente</li>
+  </ul>
 
 <br>
-💡 **Jeff Sutherland**, no livro *"Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo"*, destaca o PDCA como base para o processo iterativo e incremental do Scrum.
+<p style="color: white;>💡 Jeff Sutherland, no livro "Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo", destaca o PDCA como base para o processo iterativo e incremental do Scrum.</p>
 
 ---
 <!--------Slide--08--------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-# Aplicando Scrum no Projeto Integrador
+  <h1 style="color: #2CF228;">Aplicando Scrum no Projeto Integrador</h1>  
 
 <div style="margin: 0 auto; max-width: 750px; text-align: left; margin-top: 100px;">
-- Projeto: Sistema Web
-- Scrum pode ser usado para **organizar e acelerar o desenvolvimento**
-- Utilizar **Product Backlog** para listar funcionalidades como:
-  - Cadastro
-  - Cálculos
-  - Entre outras funcionalidades
-- Dividir o projeto em **sprints semanais ou quinzenais**
+
+
+ <ul style="color: white;>
+    <li>Método ágil de gerenciamento de projetos - Projeto: Sistema Web</li>
+    <li>Scrum pode ser usado para <strong>organizar e acelerar o desenvolvimento</strong></li>
+    <listyle="color: white;>Utilizar <strong>Product Backlog</strong> para listar funcionalidades como:
+      <ul>
+        <li>Cadastro</li>
+        <li>Cálculos</li>
+        <li>Entre outras funcionalidades</li>
+      </ul>
+    </li>
+    <li>Dividir o projeto em <strong>sprints semanais ou quinzenais</strong></li>
+  </ul>
 
 ---
 <!--------Slide--10-------------------->
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
 
-# Mensagem Final
+  <h1 style="color: #2CF228;">Mensagem Final</h1>  
 
 - Scrum é mais que um método: é uma **mudança cultural**.  
 - Baseado em:  
@@ -274,15 +293,14 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
-
-#  Links úteis
+  <h1 style="color: #2CF228;">Links úteis</h1>
 
 - [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html)  
 - [Scrum Guide](https://scrumguides.org)  
@@ -296,15 +314,15 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-<h2  style="color: black;"> Tecnologias utilizadas para esta apresentação: </h2>
+<h2  style="color: #2CF228;"> Tecnologias utilizadas para esta apresentação: </h2>
 
 <p align="center">
     <img src="img/xa.png" alt="Image" width="645" height="450" />
@@ -315,16 +333,16 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
 <div style="margin-left: 200px;">
-<h1 style=" margin-left: 100px; margin-top: 100px;">Fim !<p style="  margin-top: 100px;"> <h1>Muito Obrigado !!!</h1></p</h1>
+<h1 style="color: white; margin-left: 100px; margin-top: 250px;">Fim !<p style="  margin-top: 100px;"> <h1 style="color: white;>Muito Obrigado !!!</h1></p</h1>
 </div>
 ---
 <!--------Slide--15--------------------->
@@ -332,12 +350,12 @@ output:
 <!---início-Logos-topo-da-pagina---->
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-     <img src="./img/fatec.png" alt="Imagem de apresentação" style="width: 100px;"/>
+     <img src="./img/fatec00.png" alt="Imagem de apresentação" style="width: 100px;"/>
   </div>
   <div><!--largura-width--> <!-----Altura-height--->
-    <img src="./img/logo.png" alt="Imagem de apresentação" style="width: 300px;"/>
+    <img src="./img/logo-Slide_light.png" alt="Imagem de apresentação" style="width: 300px;"/>
   </div>
 </div>
 <!---fim-Logos-topo-da-pagina---->
 
-<h1 style=" margin-left: 250px; margin-top: 250px;"> Perguntas 🤔  ???</h1> 
+<h1 style=" color: white; margin-left: 250px; margin-top: 250px;"> Perguntas 🤔  ???</h1> 

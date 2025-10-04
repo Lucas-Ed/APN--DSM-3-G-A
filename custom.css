@@ -5,20 +5,20 @@
 /* Texto e fundo padrão para todos os slides */
 .remark-slide-content {
   background-color: #13131F; /* fundo escuro */
-  color: #FFFFFF;           /* texto branco */
+  color: #white !important;           /* texto branco */
   font-family: Andale Mono, monospace;
 }
 
 /* Primeiro slide com fundo branco */
 .remark-slide:nth-of-type(1) .remark-slide-content {
-  background-color: #FFFFFF; /* fundo branco */
-  color: #000000;           /* texto preto */
+  background-color: #212121; /* fundo branco */
+  color: #white;           /* texto preto */
 }
 
 /* Links */
 a {
   font-weight: bold;
-  color: #FF4500;
+  color: #2CF228;
   font-family: Andale Mono, monospace;
   font-size: 20px;
   font-style: normal;
